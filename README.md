@@ -1,7 +1,8 @@
-# p5.js Initial files and ml5.js library
- Contains the intial files for p5.js and the ml5.js Machine Learning library projects
+# Perlin noise flow field
+Experimental procedural graphics, empasizing on depicting the idea of "canvas" for the interactive installation I design for my diploma project in dep. of Architectural Enginnering, TUCrete.
 
- Source files at [Getting Started\Quickstart](https://learn.ml5js.org/#/)
+The code was produced after loop of feedbacks whit chatGPT.
 
- **clone this repository**
-
+Future work:
+* introduce interaction with the actual installation and the user through the procedural graphics.
+* improve the code

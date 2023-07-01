@@ -3,7 +3,6 @@ let scl = 20; // scale for spacing the vectors
 let cols, rows; // number of columns and rows
 let zoff = 0; // z offset for perlin noise
 let particles = []; // array to store particle objects
-let c =220; //color of background
 
 let flowfield;
 
@@ -81,18 +80,8 @@ function setup() {
   }
 }
 
-function drawbackground(dataTrack){
-  // console.log(dataTrack.group);
-  if (dataTrack.group == "2nd"){
-    console.log (dataTrack.lightValue);
-    let c = map (dataTrack.lightValue, 5, 500, 0, 255);
-  }
-  background(c); // set background color
-}
-
 function draw() {
-  drawbackground(dataTrack);
-  // background(250); // set background color
+  background(240); // set background color to white
   let yoff = 0; // initialize y offset for perlin noise
   for (let y = 0; y < rows; y++) {
     let xoff = 0; // initialize x offset for perlin noise
